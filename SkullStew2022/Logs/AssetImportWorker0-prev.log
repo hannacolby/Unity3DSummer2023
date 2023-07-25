@@ -1,0 +1,811 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 11927 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cjhan/OneDrive/Desktop/Unity/Unity1 3D Labs/SkullStew2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56644
+Successfully changed project path to: C:/Users/cjhan/OneDrive/Desktop/Unity/Unity1 3D Labs/SkullStew2022
+C:/Users/cjhan/OneDrive/Desktop/Unity/Unity1 3D Labs/SkullStew2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23980] Host "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 568655210 [EditorId] 568655210 [Version] 1048832 [Id] WindowsEditor(7,Mind) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23980] Host "[IP] 192.168.1.31 [Port] 0 [Flags] 2 [Guid] 568655210 [EditorId] 568655210 [Version] 1048832 [Id] WindowsEditor(7,Mind) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 11.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cjhan/OneDrive/Desktop/Unity/Unity1 3D Labs/SkullStew2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     5963 MB
+    Driver:   30.0.100.9864
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010434 seconds.
+- Loaded All Assemblies, in  0.393 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 717ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (327ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\cjhan\OneDrive\Desktop\Unity\Unity1 3D Labs\SkullStew2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\cjhan\OneDrive\Desktop\Unity\Unity1 3D Labs\SkullStew2022\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 4.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.615 seconds
+Domain Reload Profiling: 1550ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (659ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (425ms)
+			TypeCache.Refresh (397ms)
+				TypeCache.ScanAssembly (377ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (616ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3529.
+Memory consumption went from 115.6 MB to 115.5 MB.
+Total: 2.438200 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.005300 ms  DeleteObjects: 0.098700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 219239.069350 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_angry.fbx
+  artifactKey: Guid(1ef10ba7029105c42a37f8f23ec32b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_angry.fbx using Guid(1ef10ba7029105c42a37f8f23ec32b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeba42375ca0dee3697c93e11741c85') in 0.228656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.376478 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_angry.obj
+  artifactKey: Guid(cac348054bf2aac4c9a5bcb1789acabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_angry.obj using Guid(cac348054bf2aac4c9a5bcb1789acabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6462e5bf3503497ba2d45fa38f3d0100') in 0.027363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 72.021415 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted.obj
+  artifactKey: Guid(e8dad0575452afc4985d61f7abcf20fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted.obj using Guid(e8dad0575452afc4985d61f7abcf20fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346886939f4e31c6bb2d420a1afc5e5c') in 0.033454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.408226 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_dead.fbx
+  artifactKey: Guid(0d95073b82c73ee49b0d348ac9471b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_dead.fbx using Guid(0d95073b82c73ee49b0d348ac9471b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747ab73369d35491204a309a82124a92') in 0.034136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.778805 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_dead.obj
+  artifactKey: Guid(be10dfa6224a5a248ac6a638a9058ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_dead.obj using Guid(be10dfa6224a5a248ac6a638a9058ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961d59805df339722368d70ea2a0a855') in 0.024445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 90.636679 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_dead.fbx
+  artifactKey: Guid(0d95073b82c73ee49b0d348ac9471b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_dead.fbx using Guid(0d95073b82c73ee49b0d348ac9471b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e5d9e869c8c7fdca928db96638ca08') in 0.030758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 31.907372 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_happy.fbx
+  artifactKey: Guid(72a3777b69f58ed4caa7877a7a96dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_happy.fbx using Guid(72a3777b69f58ed4caa7877a7a96dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26553c8b8a8f8c760635273c425ca879') in 0.030353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 278.577188 seconds.
+  path: Assets/Textures/Lava.tga
+  artifactKey: Guid(15aefb308c9aab544956172965299076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Lava.tga using Guid(15aefb308c9aab544956172965299076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd01afd73e0c5440c3c71365162ba646') in 0.015224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 155.830990 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.232022 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(24d057de762e71148b08a1027c0bc0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(24d057de762e71148b08a1027c0bc0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb36d9670cee155fc1a0918416d40dda') in 0.000877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.457270 seconds.
+  path: Assets/Prefabs/Blue Skull Variant.prefab
+  artifactKey: Guid(c1f2800d89bb48e4f818db363d0a626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blue Skull Variant.prefab using Guid(c1f2800d89bb48e4f818db363d0a626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d1fe15e774987555b9d163719bfa59') in 0.013219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 16.878868 seconds.
+  path: Assets/Prefabs/Green Skull Variant.prefab
+  artifactKey: Guid(61032058b9ee1134fbd4b4aab2e4aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Green Skull Variant.prefab using Guid(61032058b9ee1134fbd4b4aab2e4aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c47564c3bd6565962bb536f24fbd28') in 0.015617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.969614 seconds.
+  path: Assets/Prefabs/Red Skull Variant.prefab
+  artifactKey: Guid(fc6ac3755645370468f04cadda42f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Red Skull Variant.prefab using Guid(fc6ac3755645370468f04cadda42f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a7a87b359ba1791170a28f40ca0d26') in 0.013077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 2.775004 seconds.
+  path: Assets/Prefabs/Yellow Skull Variant.prefab
+  artifactKey: Guid(1706e76d85869194da96aaef3a339b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Yellow Skull Variant.prefab using Guid(1706e76d85869194da96aaef3a339b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3839fcb06adea636ced192b8ff25d9b0') in 0.012079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 41.764672 seconds.
+  path: Assets/Prefabs/Lava.prefab
+  artifactKey: Guid(243ff3242875b904b9429830960489e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lava.prefab using Guid(243ff3242875b904b9429830960489e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c364bc01aa062ffce8c4d3c3ce290d21') in 0.062115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 120.039302 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted.fbx
+  artifactKey: Guid(f8783e7cb565b174a9c47fafa688eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted.fbx using Guid(f8783e7cb565b174a9c47fafa688eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2555b356ea2245804d40f54f52bf57') in 0.019856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.002498 seconds.
+  path: Assets/animations/skel_land.fbx
+  artifactKey: Guid(8e433844e0abadc44ac1ffeb76d61db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_land.fbx using Guid(8e433844e0abadc44ac1ffeb76d61db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80abac1491a8e7957798ad16fa44eb1a') in 0.003261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002916 seconds.
+  path: Assets/animations/skel_spring.fbx
+  artifactKey: Guid(fdd16234a39bf2f4ab39ba938bdaf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_spring.fbx using Guid(fdd16234a39bf2f4ab39ba938bdaf95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31c6a955eee37ceff69bc397fe2a758') in 0.003021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002165 seconds.
+  path: Assets/Prefabs/Yellow Skull Variant.prefab
+  artifactKey: Guid(1706e76d85869194da96aaef3a339b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Yellow Skull Variant.prefab using Guid(1706e76d85869194da96aaef3a339b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d964532306c5c6948a46cd3029a167') in 0.011845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.002668 seconds.
+  path: Assets/animations/skel_stirr.fbx
+  artifactKey: Guid(9edb0de83c7168341ad9b9bde00400bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_stirr.fbx using Guid(9edb0de83c7168341ad9b9bde00400bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd275144723239328a5ec4b1ea7a7cc2a') in 0.003021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002204 seconds.
+  path: Assets/models/Materials/micro_skeleton_tom_faceted_white.mat
+  artifactKey: Guid(c903df03bd03dd643bfd25d48f355c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials/micro_skeleton_tom_faceted_white.mat using Guid(c903df03bd03dd643bfd25d48f355c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079df9da9098fd8020ce2ff1bc3bf77e') in 0.024439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001136 seconds.
+  path: Assets/models/Materials
+  artifactKey: Guid(1e6b64ddaf37ae4448a9f84b169a3579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials using Guid(1e6b64ddaf37ae4448a9f84b169a3579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40896b092e5442e1632473ee51d2f52') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003370 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_blue.tga
+  artifactKey: Guid(8e3e8cca2a40b9645b2fbf6c0f3eb250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_blue.tga using Guid(8e3e8cca2a40b9645b2fbf6c0f3eb250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1630632b59168c2b09f491dc861b3d5') in 0.007215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002728 seconds.
+  path: Assets/Prefabs/Green Skull Variant.prefab
+  artifactKey: Guid(61032058b9ee1134fbd4b4aab2e4aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Green Skull Variant.prefab using Guid(61032058b9ee1134fbd4b4aab2e4aa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b06eb54382c89bbc5fa3f94ef285fec') in 0.009944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.003024 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_angry.obj
+  artifactKey: Guid(cac348054bf2aac4c9a5bcb1789acabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_angry.obj using Guid(cac348054bf2aac4c9a5bcb1789acabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbedc2703c9e47a45eec3713d7b6dcf') in 0.016226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005228 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_black.mat
+  artifactKey: Guid(ebdc002a5123d4e48977ce9862c5ab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_black.mat using Guid(ebdc002a5123d4e48977ce9862c5ab56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab18815b8debb1eba4588d7084941cd0') in 0.007436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003114 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted.obj
+  artifactKey: Guid(e8dad0575452afc4985d61f7abcf20fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted.obj using Guid(e8dad0575452afc4985d61f7abcf20fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e531b69d896bb9f9195eaa377c1706d') in 0.015003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002714 seconds.
+  path: Assets/animations/skel_attack_repeatedly.fbx
+  artifactKey: Guid(7ca7f4641c3d36b40a05b1d547c1490d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_attack_repeatedly.fbx using Guid(7ca7f4641c3d36b40a05b1d547c1490d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd826dbb547410712d82383385ad065') in 0.003098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002333 seconds.
+  path: Assets/animations/skel_walk.fbx
+  artifactKey: Guid(99f7be16e589d4d46962b9b91b25ca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_walk.fbx using Guid(99f7be16e589d4d46962b9b91b25ca4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6436388ff48d2159642ed7eef532e11c') in 0.002855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002840 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002311 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_sleeping.fbx
+  artifactKey: Guid(09e9cfcb0e5c0244d9d9b189b2977d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_sleeping.fbx using Guid(09e9cfcb0e5c0244d9d9b189b2977d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83adb874892b63b27a057cbf86a24512') in 0.018177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.002602 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_angry.fbx
+  artifactKey: Guid(1ef10ba7029105c42a37f8f23ec32b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_angry.fbx using Guid(1ef10ba7029105c42a37f8f23ec32b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba1420315d7fcdcf276071f3ec43b2c') in 0.017563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.002362 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(097153d62175f774fb001b70473af656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(097153d62175f774fb001b70473af656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f022b606fea00e1f0a62fbfdb20d2b52') in 0.000432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001504 seconds.
+  path: Assets/models
+  artifactKey: Guid(24cfd3caa0276b14eaad2521b491ac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models using Guid(24cfd3caa0276b14eaad2521b491ac5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce30e9ce098cb56f4bccb138638e908') in 0.000388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003591 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_green.tga
+  artifactKey: Guid(b7fb34b4d9d836f4cb73cd791a2c8d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_green.tga using Guid(b7fb34b4d9d836f4cb73cd791a2c8d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342311ab053bc0c4c4ae23b4dac6ad6f') in 0.005325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003676 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_white.tga
+  artifactKey: Guid(a1198489ccdd27d4cbed8afa56d93a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_white.tga using Guid(a1198489ccdd27d4cbed8afa56d93a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45aabadd76284268d0a8ec0ce612a68') in 0.006083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002675 seconds.
+  path: Assets/animations/skel_fall.fbx
+  artifactKey: Guid(9559a339c4281d941bc8c10ce5c08389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_fall.fbx using Guid(9559a339c4281d941bc8c10ce5c08389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26989a2e258d0805e85182efd5febce5') in 0.002969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002259 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_dead.fbx
+  artifactKey: Guid(0d95073b82c73ee49b0d348ac9471b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_dead.fbx using Guid(0d95073b82c73ee49b0d348ac9471b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77e3caef82f43992bb7de49c6c7f679') in 0.017906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.002437 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_sleeping.obj
+  artifactKey: Guid(219de43d2c0141b4991e0ad8f515997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_sleeping.obj using Guid(219de43d2c0141b4991e0ad8f515997d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d2066c2ec8c806b69bef4d7a56d088') in 0.014868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002663 seconds.
+  path: Assets/animations/skel_get_hit_from_left.fbx
+  artifactKey: Guid(81d246fab53d75d429230c7768ad4efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_get_hit_from_left.fbx using Guid(81d246fab53d75d429230c7768ad4efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c80a340a506734477fa7558f51cfa3c') in 0.003027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002564 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted.mb
+  artifactKey: Guid(4d66b0aac7294cb48acc78e7bb6fb0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted.mb using Guid(4d66b0aac7294cb48acc78e7bb6fb0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85213c1e7ba43d42e32a1e1790581d5') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002078 seconds.
+  path: Assets/Materials/Lava.mat
+  artifactKey: Guid(b4512b3aea3f8b548aba5df2287c5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lava.mat using Guid(b4512b3aea3f8b548aba5df2287c5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c050dd0906ce7474ced9e686cb5ad9d1') in 0.007103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002073 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(dbbd22ea478ab5d4aa5b14fa77b52d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(dbbd22ea478ab5d4aa5b14fa77b52d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6756fa12cdfb820c6a595b2a9faa4e') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002110 seconds.
+  path: Assets/animations/skel_trans_to_fall.fbx
+  artifactKey: Guid(c9b7d8904d06b964a8b60e1f5e1ff26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_trans_to_fall.fbx using Guid(c9b7d8904d06b964a8b60e1f5e1ff26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f3187d0980d9885c028e1b7c9d4999') in 0.002943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002181 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_red.mat
+  artifactKey: Guid(c095500ab6bdcd447acd775cb890eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_red.mat using Guid(c095500ab6bdcd447acd775cb890eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bd03e3029cb65e3e95584587fc1283') in 0.007493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002719 seconds.
+  path: Assets/Prefabs/Lava.prefab
+  artifactKey: Guid(243ff3242875b904b9429830960489e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lava.prefab using Guid(243ff3242875b904b9429830960489e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd186e2fa3f53ccfe72929f20aaf773') in 0.006849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002898 seconds.
+  path: Assets/animations/skel_get_hit_from_front.fbx
+  artifactKey: Guid(51644aab3ecb9f7419f5991c64e70da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_get_hit_from_front.fbx using Guid(51644aab3ecb9f7419f5991c64e70da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda7eda17049f38ada43c28703b7dc26') in 0.003023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002134 seconds.
+  path: Assets/animations/skel_get_hit_from_right.fbx
+  artifactKey: Guid(c37fc3f652aef704db4efb560cb9f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_get_hit_from_right.fbx using Guid(c37fc3f652aef704db4efb560cb9f408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667ba55caf252dcf574736b22c8f583') in 0.002910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.003558 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_yellow.tga
+  artifactKey: Guid(bc10bcb2eaae9a84fba7bdf31b38c595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_yellow.tga using Guid(bc10bcb2eaae9a84fba7bdf31b38c595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7f478f0550add7342b2662caed5163') in 0.005527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002544 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_glow.mat
+  artifactKey: Guid(2d2cf308024f1a94ea6a80cea6f90272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_glow.mat using Guid(2d2cf308024f1a94ea6a80cea6f90272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80646b24df1125f40f1961c8c25760fa') in 0.007496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002712 seconds.
+  path: Assets/animations/skel_panic.fbx
+  artifactKey: Guid(601dd9cc16728b944afefafd7e7d4b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_panic.fbx using Guid(601dd9cc16728b944afefafd7e7d4b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa051cd1837dcd03c186c43cd420e190') in 0.003079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002177 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_green.mat
+  artifactKey: Guid(794d4735d113b7348ac2cf58fdbd0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_green.mat using Guid(794d4735d113b7348ac2cf58fdbd0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636a5d115e8aac0f613f2ce5c94fdf63') in 0.007223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002610 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_blue.mat
+  artifactKey: Guid(163ab267422c08c47ab3df29bed7ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_blue.mat using Guid(163ab267422c08c47ab3df29bed7ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79505d6b7e883f5d890809816e6816a1') in 0.007552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002612 seconds.
+  path: Assets/animations/skel_fly_up.fbx
+  artifactKey: Guid(99b9a6d19d981ca428aa811d590ec15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_fly_up.fbx using Guid(99b9a6d19d981ca428aa811d590ec15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75465dbeae867d0e1b42aabb4fbf6fd') in 0.003013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002079 seconds.
+  path: Assets/animations/skel_laugh.fbx
+  artifactKey: Guid(162a0955e4a88304495fb69cfe129796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_laugh.fbx using Guid(162a0955e4a88304495fb69cfe129796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f65f7f94655b9accbb73ccc58d7ac9') in 0.002845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002200 seconds.
+  path: Assets/animations/skel_die.fbx
+  artifactKey: Guid(dd6712ce53386bd4e9711ebf1a0931bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_die.fbx using Guid(dd6712ce53386bd4e9711ebf1a0931bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e0f09e090f34eac5226ac16af4c2f') in 0.002922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002322 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_white.mat
+  artifactKey: Guid(8075e9b37c7f2294bb0fb016294a7b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_white.mat using Guid(8075e9b37c7f2294bb0fb016294a7b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699004cbcff6c7b5adb38a4a16d686e') in 0.007239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002682 seconds.
+  path: Assets/animations/skel_talk.fbx
+  artifactKey: Guid(8619d6e76051117488353be111238c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_talk.fbx using Guid(8619d6e76051117488353be111238c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32716bd6dff5bd7783f31cc22c1ed22') in 0.003108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.001962 seconds.
+  path: Assets/Prefabs/Blue Skull Variant.prefab
+  artifactKey: Guid(c1f2800d89bb48e4f818db363d0a626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blue Skull Variant.prefab using Guid(c1f2800d89bb48e4f818db363d0a626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd07bef069dfa1ff2e8d9d0db6e5bb18') in 0.008736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.002385 seconds.
+  path: Assets/Prefabs/Red Skull Variant.prefab
+  artifactKey: Guid(fc6ac3755645370468f04cadda42f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Red Skull Variant.prefab using Guid(fc6ac3755645370468f04cadda42f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc49dd6c553b1f911b2b2b6595c25e5') in 0.010302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.001964 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(7f4c78ff75053ad43a59d073033db650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(7f4c78ff75053ad43a59d073033db650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a95de71a4b4e508f3d5911e0b812ab') in 0.000463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006066 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_glow.tga
+  artifactKey: Guid(b70a6498989bcc2459e925d3e4b2fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_glow.tga using Guid(b70a6498989bcc2459e925d3e4b2fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fd8cd938aa902c3dd664f1b6d1fb55') in 0.005358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002800 seconds.
+  path: Assets/animations/skel_dizzy.fbx
+  artifactKey: Guid(bd74f81fdb9fdaa44a0e8d2e8151c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_dizzy.fbx using Guid(bd74f81fdb9fdaa44a0e8d2e8151c421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67851a489910628fbc1d6cc29c6e54d') in 0.003057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.001636 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9ec4fd3a215f07c458b6220893027272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9ec4fd3a215f07c458b6220893027272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea5bc165bac8c06d8122be48d283ffb') in 0.000357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002067 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_happy.obj
+  artifactKey: Guid(8ce47644eb03c9243b18a8ca87c99907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_happy.obj using Guid(8ce47644eb03c9243b18a8ca87c99907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab0334decb70ec479abe820d456e74c') in 0.015998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002965 seconds.
+  path: Assets/animations/skel_get_up.fbx
+  artifactKey: Guid(7ee78cec99a6e6244a91b8ceafe990ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_get_up.fbx using Guid(7ee78cec99a6e6244a91b8ceafe990ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3eb636c3c5239ef4587591db8e2cb9') in 0.003102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002269 seconds.
+  path: Assets/Materials/micro_skeleton_tom_faceted_yellow.mat
+  artifactKey: Guid(b40f1c803000c234e8dba318ee25411e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/micro_skeleton_tom_faceted_yellow.mat using Guid(b40f1c803000c234e8dba318ee25411e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecde81bcfcc14ecaa9fe1f2169d811f3') in 0.022716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009143 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_red.tga
+  artifactKey: Guid(506727d39bc722349bb570c3c4fc9706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_red.tga using Guid(506727d39bc722349bb570c3c4fc9706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ff80e24ced43c7f5464675e9bbf04a') in 0.005638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002812 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_dead.obj
+  artifactKey: Guid(be10dfa6224a5a248ac6a638a9058ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_dead.obj using Guid(be10dfa6224a5a248ac6a638a9058ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be9bca94179ec9b5107b85c6c7e99a8') in 0.015256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002203 seconds.
+  path: Assets/animations
+  artifactKey: Guid(b20e4ec9960558b48b4146b892894f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations using Guid(b20e4ec9960558b48b4146b892894f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b81908c2d67e590d8dd802ebfc5d9d7') in 0.000452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005159 seconds.
+  path: Assets/Textures/micro_skeleton_tom_faceted_black.tga
+  artifactKey: Guid(2d1341180fdc24b44a666d61f4819956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/micro_skeleton_tom_faceted_black.tga using Guid(2d1341180fdc24b44a666d61f4819956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9752efb788b156ee496fb2046c0df404') in 0.005172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002734 seconds.
+  path: Assets/SkullStew.unity
+  artifactKey: Guid(b0a9680ccd9ffac4c8ef682b9bf68817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkullStew.unity using Guid(b0a9680ccd9ffac4c8ef682b9bf68817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca1c7feaed8c115dc63e79ddd7a8c4a') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002564 seconds.
+  path: Assets/animations/skel_idle_2.fbx
+  artifactKey: Guid(6542e1b98a9b3c94c8897975aa2ba980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_idle_2.fbx using Guid(6542e1b98a9b3c94c8897975aa2ba980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72ea19295863789c379276a2151ad51') in 0.002967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002290 seconds.
+  path: Assets/animations/skel_idle_1.fbx
+  artifactKey: Guid(f784f66aa459a544287940c8ec50fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_idle_1.fbx using Guid(f784f66aa459a544287940c8ec50fd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e336a2d2f9dc445b20b8bbbb85c08fd') in 0.002803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002034 seconds.
+  path: Assets/models/Materials/defaultMat.mat
+  artifactKey: Guid(50e3e9fe0da0a1c45a11f674969a9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials/defaultMat.mat using Guid(50e3e9fe0da0a1c45a11f674969a9c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43defb6ae7add013012eee622dcff6ab') in 0.006419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002681 seconds.
+  path: Assets/animations/animation list.txt
+  artifactKey: Guid(99870f4462f01614f8dd34818d14d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/animation list.txt using Guid(99870f4462f01614f8dd34818d14d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641a719890a197c7b829eb29b14447f9') in 0.000872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002297 seconds.
+  path: Assets/animations/skel_attack.fbx
+  artifactKey: Guid(c246b71557e4d9f40a37234f115fc66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_attack.fbx using Guid(c246b71557e4d9f40a37234f115fc66c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588aac1bb12f8407256a6a428d9b58ad') in 0.002958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002595 seconds.
+  path: Assets/animations/skel_jump.fbx
+  artifactKey: Guid(f5582ed0c6a1a7a4cbb29d3cf8d74992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/skel_jump.fbx using Guid(f5582ed0c6a1a7a4cbb29d3cf8d74992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb9586592e89c06a51897ac528c3b1') in 0.002924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.002497 seconds.
+  path: Assets/models/micro_skeleton_tom_faceted_happy.fbx
+  artifactKey: Guid(72a3777b69f58ed4caa7877a7a96dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/micro_skeleton_tom_faceted_happy.fbx using Guid(72a3777b69f58ed4caa7877a7a96dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86c114562ee4522ff733031cf81c8ea') in 0.019242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
